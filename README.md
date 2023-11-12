@@ -3,6 +3,6 @@ I have a problem where the time when my public IP address changes sometimes chan
 ## How does it work?
 The app checks every minute if the IP address has changed. Then it checks if the IP address has changed and, in case if it did, it also checks if the current time of the day is different from the time when the IP address last changed. And then, in case that time of the day is different, it will send me an email from my Gmail address to the same Gmail address.
 ## How to run?
-To run this you only need GO runtime and to enter credentials for login into the SMTP server.
+To run this you only need Go runtime and to enter credentials for login into the SMTP server.
 
 
